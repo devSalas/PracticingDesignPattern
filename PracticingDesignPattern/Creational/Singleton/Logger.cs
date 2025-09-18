@@ -45,5 +45,10 @@ namespace PracticingDesignPattern.Creational.Singleton
             Console.WriteLine($"[LOG][DANGER]: {message}");
         }
 
+        public void LogSuccess(string message)
+        {
+            Console.WriteLine($"[LOG][success]: {message}");
+        }
+
     }
 }
