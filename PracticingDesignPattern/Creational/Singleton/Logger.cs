@@ -39,5 +39,11 @@ namespace PracticingDesignPattern.Creational.Singleton
         {
             Console.WriteLine($"[LOg]: {message}");
         }
+
+        public void LogDanger(string message)
+        {
+            Console.WriteLine($"[LOG][DANGER]: {message}");
+        }
+
     }
 }
