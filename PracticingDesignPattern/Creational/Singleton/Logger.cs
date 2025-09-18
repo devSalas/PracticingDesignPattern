@@ -49,6 +49,11 @@ namespace PracticingDesignPattern.Creational.Singleton
         {
             Console.WriteLine($"[LOG][success]: {message}");
         }
+        public void LogInfo(string message)
+        {
+            Console.WriteLine($"[LOG][info]: {message}");
+        }
+
 
     }
 }
